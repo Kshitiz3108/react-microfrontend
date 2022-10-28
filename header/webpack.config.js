@@ -13,6 +13,7 @@ module.exports = {
   },
   output: {
     publicPath: "auto",
+    filename: "[name].[contenthash].js",
   },
   module: {
     rules: [

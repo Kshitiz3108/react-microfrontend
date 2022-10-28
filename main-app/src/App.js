@@ -8,11 +8,10 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/404" element={<div>Choose the correct path</div>} />
 
         <Route
           exact
-          path="tool"
+          path="app/footer"
           element={
             <Suspense fallback={"...loading"}>
               <SubmainApp />

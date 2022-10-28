@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -13,7 +13,8 @@ const Home = () => {
       }}
     >
       <h1>HomeComponent</h1>
-      <button onClick={() => navigate("/footer")}> click me</button>
+      <Link to={"/app/footer"}>to footer</Link>
+      <button onClick={() => navigate("../footer")}> click me</button>
     </div>
   );
 };
