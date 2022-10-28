@@ -1,0 +1,25 @@
+{
+  "name": "react-federation",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "header",
+      "footer",
+      "submain",
+      "main-app"
+    ]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "react-router-dom": "^6.4.2",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "react-scripts": "^5.0.1"
+  }
+}
