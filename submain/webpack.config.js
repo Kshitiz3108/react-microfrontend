@@ -30,7 +30,7 @@ module.exports = {
       name: "submain",
       filename: "remoteEntry.js",
       exposes: {
-        "./submain": "./src/App",
+        "./App": "./src/App",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),

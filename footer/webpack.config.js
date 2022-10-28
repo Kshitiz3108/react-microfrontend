@@ -30,7 +30,7 @@ module.exports = {
       name: "footer",
       filename: "remoteEntry.js",
       exposes: {
-        "./footer": "./src/App",
+        "./App": "./src/App",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),

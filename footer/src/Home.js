@@ -13,7 +13,7 @@ const Home = () => {
       }}
     >
       <h1>HomeComponent</h1>
-      <button onClick={() => navigate("/tool")}> click me</button>
+      <button onClick={() => navigate("/footer")}> click me</button>
     </div>
   );
 };

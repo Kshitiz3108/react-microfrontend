@@ -32,7 +32,7 @@ module.exports = {
       name: "header",
       filename: "remoteEntry.js",
       exposes: {
-        "./header": "./src/App",
+        "./App": "./src/App",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),
